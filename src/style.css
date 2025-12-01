@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+/* *. Como mencioné en el HTML, estilizar el video no es necesario, de hecho lo vas a tener que ocultar, usando display: none, ese es el único estilo que le vas a aplicar en tu proyecto.  */
+#video {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+}

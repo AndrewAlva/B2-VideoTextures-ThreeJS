@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oli. Video Textures.</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- 1. Cargar video usando HTML -->
+    <!-- * No es necesario mostrar el video en pantalla, yo lo estoy haciendo para ilustrar la idea de que el video se renderiza normal en HTML primero y luego lo tomamos para volverlo textura 3D. -->
+    <video id="video" src="/videos/skate.mp4" loop muted playsinline></video>
+
+    <canvas class="webgl"></canvas>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
